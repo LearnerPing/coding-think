@@ -1,6 +1,4 @@
-a = '你好'
-b = "你好"
-print(a)
-# print(b)
-# print("你好")
-# print('你好')
+def canWinNim(n) :
+    #  如果上来就踩到 4 的倍数，那就认输吧
+    #  否则，可以把对方控制在 4 的倍数，必胜
+    return n % 4 != 0
